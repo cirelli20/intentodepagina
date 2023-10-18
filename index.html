@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Página Web Simple</title>
+</head>
+<body>
+
+<h1>Mi Página Web Simple</h1>
+
+<button id="miBoton">Haz clic</button>
+
+<p id="miMensaje"></p>
+
+<script>
+    // Obtén una referencia al botón y al párrafo donde se mostrará el mensaje
+    const boton = document.getElementById("miBoton");
+    const mensaje = document.getElementById("miMensaje");
+
+    // Agrega un evento de clic al botón
+    boton.addEventListener("click", function() {
+        mensaje.textContent = "¡Hola, Mundo!";
+    });
+</script>
+
+</body>
+</html>
